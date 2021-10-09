@@ -1,0 +1,115 @@
+.main {
+  margin-top: 30px;
+  margin-left: 35px;
+  margin-right: 35px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 41vw;
+}
+
+.sets {
+  background-color: #8ed8f7;
+  width: 25%;
+}
+
+.sets__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sets__image {
+  background-image: url(../../images/sets_desktop.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 30vw;
+}
+
+.sets__title {
+  font-size: 3.5vw;
+  font-family: "Gilroy Bold";
+  color: white;
+  margin-left: 50px;
+}
+
+.rolls {
+  background-color: #f32b2b;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.rolls__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.rolls__image1 {
+  background-image: url(../../images/rolls_desktop.png);
+  width: 10vw;
+  height: 10vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.rolls__image2 {
+  background-image: url(../../images/sushi_desktop.png);
+}
+.rolls__image3 {
+  background-image: url(../../images/fried_rolls_desktop.png);
+}
+.rolls__image4 {
+  background-image: url(../../images/baked_rolls_desktop.png);
+}
+
+.rolls__text {
+  font-family: "Gilroy Bold";
+  font-size: 1.5vw;
+  color: white;
+  padding-top: 22%;
+  margin: 0;
+  width: 107px;
+}
+
+.wok {
+  background-color: white;
+  width: 25%;
+  overflow: hidden;
+}
+
+.wok__container {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../../images/wok_desktop.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-size: 144%;
+  height: 41.3vw;
+}
+
+.wok__title {
+  font-family: "Gilroy Bold";
+  color: #f32b2b;
+  font-size: 3.5vw;
+  margin: 0;
+  padding-left: 10%;
+}
+
+.wok__title:first-child {
+  padding-top: 10%;
+}
+
+.wok__subtitle {
+  font-family: "Gilroy Bold";
+  color: #f32b2b;
+  font-size: 1vw;
+  padding-left: 10%;
+}
+
+.wok__image {
+  width: 32vw;
+  height: 50vw;
+}
