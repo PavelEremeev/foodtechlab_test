@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Тестовое задание FoodTechLab на позицию Junior Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Описание:**
 
-## Available Scripts
+Вы участвуете рефакторинге frontend части сайта сушивесла.рф. На текущий момент принято решение использовать ReactJS, как основную технологию для сайта.
 
-In the project directory, you can run:
+Для того что бы принять окончательное решение, нужно реализовать MVP из двух страниц сайта, для проверки работоспособности технологии.
 
-### `npm start`
+Технологии backend еще не определены.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Требуется создать прототип MVP приложения по текущему дизайну. Реализация отдельный фич UI не так важна, как получение прототипа.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**Дизайн:**
 
-### `npm test`
+Все ресурсы можно брать с текущего сайта: [сушивесла.рф]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Описание задачи:**
 
-### `npm run build`
+Требуется организовать прототип интерфейса из двух экранов:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Главный экран
+  - При клике на любую из кнопок идет переход на экран каталога
+- Экран каталога
+  - Важный момент: Подходы к получению данных будут определяться на поздних этапах разработки.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Требуется предусмотреть архитектуру, предоставляющую выбор Backend на поздних этапах разработки.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Оценка задачи будет в том числе включать особенности выбранного подхода к построению архитектуры приложения.
 
-### `npm run eject`
+Язык написания: JS, ReactJS
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**_Допускается "упрощать" интерфейс._**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Цель: предоставить MVP в приемлемые сроки выполнения.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Для того чтобы запустить проект, необходимо его скачать, затем:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 1 `npm install`
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 2 `npm start`
