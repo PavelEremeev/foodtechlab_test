@@ -54,20 +54,20 @@
   overflow: hidden;
 }
 
-.rolls__container-right {
+.menu__container-right {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   position: relative;
 }
 
-.rolls__container-left {
+.menu__container-left {
   display: flex;
   flex-direction: row;
   justify-content: end;
   position: relative;
 }
-.rolls__image-left-one {
+.menu__image-left-one {
   background-image: url(../../images/rolls_desktop.png);
   width: 10vw;
   height: 10vw;
@@ -76,12 +76,12 @@
   margin-left: -2vw;
   transition: all ease-in-out 0.5s;
 }
-.rolls__image-left-one:hover {
+.menu__image-left-one:hover {
   margin-left: 2vw;
   transition: all ease-in-out 0.5s;
 }
 
-.rolls__image-right-one {
+.menu__image-right-one {
   background-image: url(../../images/sushi_desktop.png);
   width: 10vw;
   height: 10vw;
@@ -91,19 +91,19 @@
   transition: all ease-in-out 0.5s;
 }
 
-.rolls__image-right-one:hover {
+.menu__image-right-one:hover {
   margin-right: 1vw;
   transition: all ease-in-out 0.5s;
 }
 
-.rolls__image-left-two {
+.menu__image-left-two {
   background-image: url(../../images/fried_rolls_desktop.png);
 }
 
-.rolls__image-right-two {
+.menu__image-right-two {
   background-image: url(../../images/baked_rolls_desktop.png);
 }
-.rolls__text-right {
+.menu__text-right {
   font-family: "Gilroy Bold";
   font-size: 1.5vw;
   color: white;
@@ -114,7 +114,7 @@
   top: 0vw;
   left: 12vw;
 }
-.rolls__text-left {
+.menu__text-left {
   font-family: "Gilroy Bold";
   font-size: 1.5vw;
   color: white;
@@ -192,6 +192,12 @@
   width: 81%;
   height: 20.5vw;
   margin: -19.5% 8.5% 12% 13%;
+  transition: all ease-in-out 0.5s;
+}
+
+.soup__image:hover {
+  transform: rotate(-30deg);
+  transition: all ease-in-out 0.5s;
 }
 
 .soup__title {
@@ -199,7 +205,7 @@
   font-size: 3.5vw;
   color: white;
   padding-left: 13%;
-  margin-top: -10%;
+  margin: -10% 0 0 0;
 }
 
 .drinks-tempura__container {
@@ -207,6 +213,7 @@
   flex-direction: column;
   background-color: #9fe48b;
   height: 20.5vw;
+  overflow: hidden;
 }
 
 .tempura__container {
@@ -231,15 +238,20 @@
   margin: 0;
 }
 
-.drinks__container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
 .drinks__text {
 }
 
 .drinks__image {
   background-image: url(../../images/beverages_desktop.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 13vw;
+  height: 13vw;
+  margin-top: 1vw;
+  transition: all ease-in-out 0.5s;
+}
+
+.drinks__image:hover {
+  margin-top: -2vw;
+  transition: all ease-in-out 0.5s;
 }

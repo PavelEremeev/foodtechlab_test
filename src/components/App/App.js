@@ -4,6 +4,7 @@ import { Route, Switch } from 'react-router-dom';
 
 import Header from '../Header/Header'
 import Main from '../Main/Main'
+import Sets from '../Sets/Sets'
 import './App.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Header></Header>
       <Main></Main>
+      <Sets></Sets>
     </div>
   );
 }
