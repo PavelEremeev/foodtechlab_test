@@ -6,29 +6,30 @@ export default function Main() {
     return (
         <section className="main">
             <section className="sets">
-                <div className="sets__container">
-                    <div className="sets__image"></div>
+                <div className="sets__image">
                     <h1 className="sets__title">СЕТЫ</h1>
-
                 </div>
             </section>
             <section className="rolls">
-                <div className="rolls__container">
-                    <div className="rolls__image1"></div>
-                    <h2 className="rolls__text">РОЛЛЫ</h2>
+                <div className="rolls__container-right">
+                    <div className="rolls__image-left-one">
+                        <h2 className="rolls__text-right">РОЛЛЫ</h2>
+                    </div>
                 </div>
-                <div className="rolls__container">
-                    <div className="rolls__image1 rolls__image2"></div>
-                    <h2 className="rolls__text">СУШИ</h2>
+                <div className="rolls__container-left">
+                    <div className="rolls__image-right-one">
+                        <h2 className="rolls__text-left">СУШИ</h2>
+                    </div>
                 </div>
-                <div className="rolls__container">
-                    <h2 className="rolls__text">ЖАРЕННЫЕ РОЛЛЫ</h2>
-                    <div className="rolls__image1 rolls__image3"></div>
-
+                <div className="rolls__container-right">
+                    <div className="rolls__image-left-two rolls__image-left-one">
+                        <h2 className="rolls__text-right">ЖАРЕННЫЕ РОЛЛЫ</h2>
+                    </div>
                 </div>
-                <div className="rolls__container">
-                    <h2 className="rolls__text">ЗАПЕЧЕННЫЕ РОЛЛЫ</h2>
-                    <div className="rolls__image1 rolls__image4"></div>
+                <div className="rolls__container-left">
+                    <div className="rolls__image-right-two rolls__image-right-one">
+                        <h2 className="rolls__text-left">ЗАПЕЧЕННЫЕ РОЛЛЫ</h2>
+                    </div>
 
                 </div>
             </section>
@@ -48,7 +49,7 @@ export default function Main() {
                 <div className="drinks-tempura__container">
                     <div className="tempura__container">
                         <div className="tempura__image"></div>
-                        <div className="tempura__text">СУПЫ</div>
+                        <div className="tempura__text">ТЕМПУРА</div>
                     </div>
                     <div className="drinks__container">
                         <div className="tempura__text drinks__text">НАПИТКИ</div>

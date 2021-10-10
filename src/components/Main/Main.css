@@ -6,24 +6,34 @@
   display: flex;
   flex-direction: row;
   height: 41vw;
+  cursor: pointer;
 }
 
 .sets {
   background-color: #8ed8f7;
   width: 25%;
+  overflow: hidden;
+  position: relative;
 }
 
-.sets__container {
+/* .sets__container {
   display: flex;
   flex-direction: column;
-}
+} */
 
 .sets__image {
   background-image: url(../../images/sets_desktop.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 90%;
-  height: 30vw;
+  height: 41vw;
+  margin-top: -2vw;
+  transition: all ease-in-out 0.5s;
+}
+
+.sets__image:hover {
+  margin-top: 0.5vw;
+  transition: all ease-in-out 0.5s;
 }
 
 .sets__title {
@@ -31,6 +41,9 @@
   font-family: "Gilroy Bold";
   color: white;
   margin-left: 50px;
+  position: absolute;
+  top: 29vw;
+  left: -1vw;
 }
 
 .rolls {
@@ -38,39 +51,79 @@
   display: flex;
   flex-direction: column;
   width: 25%;
+  overflow: hidden;
 }
 
-.rolls__container {
+.rolls__container-right {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  position: relative;
 }
 
-.rolls__image1 {
+.rolls__container-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  position: relative;
+}
+.rolls__image-left-one {
   background-image: url(../../images/rolls_desktop.png);
   width: 10vw;
   height: 10vw;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-left: -2vw;
+  transition: all ease-in-out 0.5s;
+}
+.rolls__image-left-one:hover {
+  margin-left: 2vw;
+  transition: all ease-in-out 0.5s;
 }
 
-.rolls__image2 {
+.rolls__image-right-one {
   background-image: url(../../images/sushi_desktop.png);
+  width: 10vw;
+  height: 10vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: -4vw;
+  transition: all ease-in-out 0.5s;
 }
-.rolls__image3 {
+
+.rolls__image-right-one:hover {
+  margin-right: 1vw;
+  transition: all ease-in-out 0.5s;
+}
+
+.rolls__image-left-two {
   background-image: url(../../images/fried_rolls_desktop.png);
 }
-.rolls__image4 {
+
+.rolls__image-right-two {
   background-image: url(../../images/baked_rolls_desktop.png);
 }
-
-.rolls__text {
+.rolls__text-right {
   font-family: "Gilroy Bold";
   font-size: 1.5vw;
   color: white;
   padding-top: 22%;
   margin: 0;
   width: 107px;
+  position: absolute;
+  top: 0vw;
+  left: 12vw;
+}
+.rolls__text-left {
+  font-family: "Gilroy Bold";
+  font-size: 1.5vw;
+  color: white;
+  padding-top: 22%;
+  margin: 0;
+  width: 107px;
+  position: absolute;
+  top: 0vw;
+  left: 2vw;
 }
 
 .wok {
@@ -86,8 +139,15 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: bottom;
+  background-position-x: -2.5vw;
   background-size: 144%;
   height: 41.3vw;
+  transition: all ease-in-out 0.5s;
+}
+
+.wok__container:hover {
+  background-position-x: 0vw;
+  transition: all ease-in-out 0.5s;
 }
 
 .wok__title {
