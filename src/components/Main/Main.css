@@ -113,3 +113,73 @@
   width: 32vw;
   height: 50vw;
 }
+
+.soup-drinks {
+  width: 25%;
+  overflow: hidden;
+}
+
+.soup__container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f32b2b;
+}
+
+.soup__image {
+  background-image: url(../../images/soups_desktop.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 81%;
+  height: 20.5vw;
+  margin: -19.5% 8.5% 12% 13%;
+}
+
+.soup__title {
+  font-family: "Gilroy Bold";
+  font-size: 3.5vw;
+  color: white;
+  padding-left: 13%;
+  margin-top: -10%;
+}
+
+.drinks-tempura__container {
+  display: flex;
+  flex-direction: column;
+  background-color: #9fe48b;
+  height: 20.5vw;
+}
+
+.tempura__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.tempura__image {
+  background-image: url(../../images/tempura_desktop.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 10vw;
+  height: 10vw;
+}
+
+.tempura__text {
+  font-family: "Gilroy Bold";
+  font-size: 1.5vw;
+  color: #f32b2b;
+  padding-top: 22%;
+  margin: 0;
+}
+
+.drinks__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.drinks__text {
+}
+
+.drinks__image {
+  background-image: url(../../images/beverages_desktop.png);
+}

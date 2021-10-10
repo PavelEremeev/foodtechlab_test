@@ -38,7 +38,22 @@ export default function Main() {
                     <h2 className="wok__title">КОНСТРУК</h2>
                     <h2 className="wok__title">ТОР</h2>
                     <h3 className="wok__subtitle">СОБЕРИ СВОЙ</h3>
-                    {/* <div className="wok__image"></div> */}
+                </div>
+            </section>
+            <section className="soup-drinks">
+                <div className="soup__container">
+                    <div className="soup__image"></div>
+                    <div className="soup__title">СУПЫ</div>
+                </div>
+                <div className="drinks-tempura__container">
+                    <div className="tempura__container">
+                        <div className="tempura__image"></div>
+                        <div className="tempura__text">СУПЫ</div>
+                    </div>
+                    <div className="drinks__container">
+                        <div className="tempura__text drinks__text">НАПИТКИ</div>
+                        <div className="tempura__image drinks__image"></div>
+                    </div>
                 </div>
             </section>
         </section>
