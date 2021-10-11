@@ -1,0 +1,148 @@
+.soup-drinks {
+  width: 50%;
+  overflow: hidden;
+}
+
+.soup__container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f32b2b;
+}
+
+.soup__image {
+  background-image: url(../../images/soups_desktop.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20vw;
+  height: 20.5vw;
+  margin: -19.5% 8.5% 12% 13%;
+  transition: all ease-in-out 0.5s;
+}
+
+.soup__image:hover {
+  transform: rotate(-30deg);
+  transition: all ease-in-out 0.5s;
+}
+
+.soup__title {
+  font-family: "Gilroy Bold";
+  font-size: 3.5vw;
+  color: white;
+  padding-left: 13%;
+  margin: -10% 0 0 0;
+}
+
+.drinks-tempura__container {
+  display: flex;
+  flex-direction: column;
+  background-color: #9fe48b;
+  height: 20.5vw;
+  overflow: hidden;
+}
+
+/* .tempura__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  } */
+
+.tempura__image {
+  background-image: url(../../images/tempura_desktop.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 10vw;
+  height: 10vw;
+}
+
+.tempura__text {
+  font-family: "Gilroy Bold";
+  font-size: 1.5vw;
+  color: #f32b2b;
+  padding-top: 22%;
+  margin: 0;
+}
+
+.drinks__text {
+}
+
+.drinks__image {
+  background-image: url(../../images/beverages_desktop.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 13vw;
+  height: 13vw;
+  margin-top: 1vw;
+  transition: all ease-in-out 0.5s;
+}
+
+.drinks__image:hover {
+  margin-top: -2vw;
+  transition: all ease-in-out 0.5s;
+}
+
+@media screen and (max-width: 786px) {
+  .soup__container {
+    height: 20.5vw;
+  }
+
+  .soup__image {
+    margin: -13.5% 8.5% 12% 51%;
+    transition: all ease-in-out 0.5s;
+  }
+
+  .tempura__text {
+    font-size: 2vw;
+    padding-top: 12%;
+  }
+  .drinks__text {
+    position: absolute;
+    top: 0vw;
+    left: 13vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .soup-drinks {
+    width: 100%;
+  }
+
+  .drinks__text {
+    position: absolute;
+    top: -4vw;
+    left: 23vw;
+    font-size: 4vw;
+  }
+
+  .tempura__text {
+    font-size: 4vw;
+    padding-top: 12%;
+  }
+
+  .drinks__image {
+    width: 25vw;
+    height: 25vw;
+  }
+
+  .tempura__image {
+    width: 25vw;
+    height: 25vw;
+  }
+
+  .drinks-tempura__container {
+    height: 41.5vw;
+  }
+
+  .soup__container {
+    height: 41.5vw;
+  }
+
+  .soup__image {
+    width: 40vw;
+    height: 40.5vw;
+    margin: -13.5% 8.5% 12% 40%;
+  }
+
+  .soup__title {
+    font-size: 7vw;
+  }
+}

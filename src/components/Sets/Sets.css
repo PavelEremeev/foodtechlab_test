@@ -1,0 +1,63 @@
+.sets {
+  background-color: #8ed8f7;
+  width: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* .sets__container {
+    display: flex;
+    flex-direction: column;
+  } */
+
+.sets__image {
+  background-image: url(../../images/sets_desktop.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 41vw;
+  margin-top: -2vw;
+  transition: all ease-in-out 0.5s;
+}
+
+.sets__image:hover {
+  margin-top: 0.5vw;
+  transition: all ease-in-out 0.5s;
+}
+
+.sets__title {
+  font-size: 3.5vw;
+  font-family: "Gilroy Bold";
+  color: white;
+  margin-left: 50px;
+  position: absolute;
+  top: 29vw;
+  left: -1vw;
+}
+
+@media screen and (max-width: 786px) {
+  .sets {
+    height: 41vw;
+  }
+
+  .sets__title {
+    top: 29vw;
+    left: 20vw;
+    font-size: 5vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .sets {
+    width: 100%;
+    height: 81.3vw;
+  }
+  .sets__title {
+    top: 58vw;
+    left: 47vw;
+    font-size: 7vw;
+  }
+  .sets__image {
+    height: 81.3vw;
+  }
+}

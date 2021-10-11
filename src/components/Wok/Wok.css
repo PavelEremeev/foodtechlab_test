@@ -1,0 +1,87 @@
+.wok {
+  background-color: white;
+  width: 50%;
+  overflow: hidden;
+}
+
+.wok__container {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../../images/wok_desktop.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: -2.5vw;
+  background-size: 144%;
+  height: 41.3vw;
+  transition: all ease-in-out 0.5s;
+}
+
+.wok__container:hover {
+  background-position-x: 0vw;
+  transition: all ease-in-out 0.5s;
+}
+
+.wok__title {
+  font-family: "Gilroy Bold";
+  color: #f32b2b;
+  font-size: 3.5vw;
+  margin: 0;
+  padding-left: 10%;
+}
+
+.wok__title:first-child {
+  padding-top: 10%;
+}
+
+.wok__subtitle {
+  font-family: "Gilroy Bold";
+  color: #f32b2b;
+  font-size: 1vw;
+  padding-left: 10%;
+}
+
+.wok__image {
+  width: 32vw;
+  height: 50vw;
+}
+
+@media screen and (max-width: 786px) {
+  .wok__container {
+    background-image: url(../../images/wok_tablet.png);
+    background-position-x: 1vw;
+    background-position-y: -5vw;
+    background-size: 100%;
+    height: 41.3vw;
+  }
+  .wok__container:hover {
+    background-position-x: 2vw;
+  }
+  .wok__subtitle {
+    margin-top: 0.5vw;
+    font-size: 2vw;
+  }
+  .wok__title:first-child {
+    padding-top: 3%;
+  }
+  .wok__title {
+    font-size: 5vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .wok {
+    width: 100%;
+  }
+  .wok__container {
+    height: 81.3vw;
+  }
+  .wok__subtitle {
+    margin-top: 0.5vw;
+    font-size: 4vw;
+  }
+
+  .wok__title {
+    font-size: 7vw;
+  }
+}

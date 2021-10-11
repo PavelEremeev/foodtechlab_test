@@ -1,0 +1,153 @@
+.rolls {
+  background-color: #f32b2b;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  overflow: hidden;
+}
+
+.menu__container-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+.menu__container-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  position: relative;
+}
+.menu__image-left-one {
+  background-image: url(../../images/rolls_desktop.png);
+  width: 10vw;
+  height: 10vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: -2vw;
+  transition: all ease-in-out 0.5s;
+}
+.menu__image-left-one:hover {
+  margin-left: 2vw;
+  transition: all ease-in-out 0.5s;
+}
+
+.menu__image-right-one {
+  background-image: url(../../images/sushi_desktop.png);
+  width: 10vw;
+  height: 10vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: -4vw;
+  transition: all ease-in-out 0.5s;
+}
+
+.menu__image-right-one:hover {
+  margin-right: 1vw;
+  transition: all ease-in-out 0.5s;
+}
+
+.menu__image-left-two {
+  background-image: url(../../images/fried_rolls_desktop.png);
+}
+
+.menu__image-right-two {
+  background-image: url(../../images/baked_rolls_desktop.png);
+}
+.menu__text-right {
+  font-family: "Gilroy Bold";
+  font-size: 1.5vw;
+  color: white;
+  padding-top: 22%;
+  margin: 0;
+  width: 107px;
+  position: absolute;
+  top: 0vw;
+  left: 12vw;
+}
+.menu__text-left {
+  font-family: "Gilroy Bold";
+  font-size: 1.5vw;
+  color: white;
+  padding-top: 22%;
+  margin: 0;
+  width: 107px;
+  position: absolute;
+  top: 0vw;
+  left: 2vw;
+}
+
+@media screen and (max-width: 786px) {
+  .menu__text-left {
+    top: 0vw;
+    left: 13vw;
+    font-size: 2vw;
+    padding-top: 5%;
+    width: 70px;
+  }
+
+  .menu__text-right {
+    top: 0vw;
+    left: 23vw;
+    font-size: 2vw;
+    padding-top: 5%;
+    width: 70px;
+  }
+  .menu__image-right-one {
+    margin-right: 2vw;
+  }
+  .menu__image-right-one:hover {
+    margin-right: 8vw;
+    transition: all ease-in-out 0.5s;
+  }
+
+  .menu__image-left-one {
+    margin-left: 4vw;
+  }
+  .menu__image-left-one:hover {
+    margin-left: 10vw;
+    transition: all ease-in-out 0.5s;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .rolls {
+    width: 100%;
+  }
+
+  .menu__text-left {
+    top: 0vw;
+    left: 20vw;
+    font-size: 4vw;
+    padding-top: 5%;
+    width: 70px;
+  }
+
+  .menu__text-right {
+    top: 0vw;
+    left: 37vw;
+    font-size: 4vw;
+    padding-top: 5%;
+    width: 70px;
+  }
+  .menu__image-right-one {
+    margin-right: 2vw;
+    height: 20vw;
+    width: 20vw;
+  }
+  .menu__image-right-one:hover {
+    margin-right: 8vw;
+    transition: all ease-in-out 0.5s;
+  }
+
+  .menu__image-left-one {
+    margin-left: 4vw;
+    height: 20vw;
+    width: 20vw;
+  }
+  .menu__image-left-one:hover {
+    margin-left: 10vw;
+    transition: all ease-in-out 0.5s;
+  }
+}
