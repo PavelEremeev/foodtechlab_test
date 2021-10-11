@@ -3,15 +3,44 @@
   margin-left: 35px;
   margin-right: 35px;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
   height: 41vw;
   cursor: pointer;
+  flex-direction: row;
+  display: flex;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+@media screen and (max-width: 786px) {
+  .main {
+    flex-direction: column;
+  }
+  .main__container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .main__container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .main {
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 
 .sets {
   background-color: #8ed8f7;
-  width: 25%;
+  width: 50%;
   overflow: hidden;
   position: relative;
 }
@@ -46,11 +75,38 @@
   left: -1vw;
 }
 
+@media screen and (max-width: 786px) {
+  .sets {
+    height: 41vw;
+  }
+
+  .sets__title {
+    top: 29vw;
+    left: 20vw;
+    font-size: 5vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .sets {
+    width: 100%;
+    height: 81.3vw;
+  }
+  .sets__title {
+    top: 58vw;
+    left: 47vw;
+    font-size: 7vw;
+  }
+  .sets__image {
+    height: 81.3vw;
+  }
+}
+
 .rolls {
   background-color: #f32b2b;
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 50%;
   overflow: hidden;
 }
 
@@ -126,9 +182,83 @@
   left: 2vw;
 }
 
+@media screen and (max-width: 786px) {
+  .menu__text-left {
+    top: 0vw;
+    left: 13vw;
+    font-size: 2vw;
+    padding-top: 5%;
+    width: 70px;
+  }
+
+  .menu__text-right {
+    top: 0vw;
+    left: 23vw;
+    font-size: 2vw;
+    padding-top: 5%;
+    width: 70px;
+  }
+  .menu__image-right-one {
+    margin-right: 2vw;
+  }
+  .menu__image-right-one:hover {
+    margin-right: 8vw;
+    transition: all ease-in-out 0.5s;
+  }
+
+  .menu__image-left-one {
+    margin-left: 4vw;
+  }
+  .menu__image-left-one:hover {
+    margin-left: 10vw;
+    transition: all ease-in-out 0.5s;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .rolls {
+    width: 100%;
+  }
+
+  .menu__text-left {
+    top: 0vw;
+    left: 20vw;
+    font-size: 4vw;
+    padding-top: 5%;
+    width: 70px;
+  }
+
+  .menu__text-right {
+    top: 0vw;
+    left: 37vw;
+    font-size: 4vw;
+    padding-top: 5%;
+    width: 70px;
+  }
+  .menu__image-right-one {
+    margin-right: 2vw;
+    height: 20vw;
+    width: 20vw;
+  }
+  .menu__image-right-one:hover {
+    margin-right: 8vw;
+    transition: all ease-in-out 0.5s;
+  }
+
+  .menu__image-left-one {
+    margin-left: 4vw;
+    height: 20vw;
+    width: 20vw;
+  }
+  .menu__image-left-one:hover {
+    margin-left: 10vw;
+    transition: all ease-in-out 0.5s;
+  }
+}
+
 .wok {
   background-color: white;
-  width: 25%;
+  width: 50%;
   overflow: hidden;
 }
 
@@ -174,8 +304,48 @@
   height: 50vw;
 }
 
+@media screen and (max-width: 786px) {
+  .wok__container {
+    background-image: url(../../images/wok_tablet.png);
+    background-position-x: 1vw;
+    background-position-y: -5vw;
+    background-size: 100%;
+    height: 41.3vw;
+  }
+  .wok__container:hover {
+    background-position-x: 2vw;
+  }
+  .wok__subtitle {
+    margin-top: 0.5vw;
+    font-size: 2vw;
+  }
+  .wok__title:first-child {
+    padding-top: 3%;
+  }
+  .wok__title {
+    font-size: 5vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .wok {
+    width: 100%;
+  }
+  .wok__container {
+    height: 81.3vw;
+  }
+  .wok__subtitle {
+    margin-top: 0.5vw;
+    font-size: 4vw;
+  }
+
+  .wok__title {
+    font-size: 7vw;
+  }
+}
+
 .soup-drinks {
-  width: 25%;
+  width: 50%;
   overflow: hidden;
 }
 
@@ -189,7 +359,7 @@
   background-image: url(../../images/soups_desktop.png);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 81%;
+  width: 20vw;
   height: 20.5vw;
   margin: -19.5% 8.5% 12% 13%;
   transition: all ease-in-out 0.5s;
@@ -216,11 +386,11 @@
   overflow: hidden;
 }
 
-.tempura__container {
+/* .tempura__container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
+} */
 
 .tempura__image {
   background-image: url(../../images/tempura_desktop.png);
@@ -254,4 +424,71 @@
 .drinks__image:hover {
   margin-top: -2vw;
   transition: all ease-in-out 0.5s;
+}
+
+@media screen and (max-width: 786px) {
+  .soup__container {
+    height: 20.5vw;
+  }
+
+  .soup__image {
+    margin: -13.5% 8.5% 12% 51%;
+    transition: all ease-in-out 0.5s;
+  }
+
+  .tempura__text {
+    font-size: 2vw;
+    padding-top: 12%;
+  }
+  .drinks__text {
+    position: absolute;
+    top: 0vw;
+    left: 13vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .soup-drinks {
+    width: 100%;
+  }
+
+  .drinks__text {
+    position: absolute;
+    top: -4vw;
+    left: 23vw;
+    font-size: 4vw;
+  }
+
+  .tempura__text {
+    font-size: 4vw;
+    padding-top: 12%;
+  }
+
+  .drinks__image {
+    width: 25vw;
+    height: 25vw;
+  }
+
+  .tempura__image {
+    width: 25vw;
+    height: 25vw;
+  }
+
+  .drinks-tempura__container {
+    height: 41.5vw;
+  }
+
+  .soup__container {
+    height: 41.5vw;
+  }
+
+  .soup__image {
+    width: 40vw;
+    height: 40.5vw;
+    margin: -13.5% 8.5% 12% 40%;
+  }
+
+  .soup__title {
+    font-size: 7vw;
+  }
 }

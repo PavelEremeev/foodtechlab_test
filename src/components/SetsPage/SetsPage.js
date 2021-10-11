@@ -1,7 +1,7 @@
 import react from "react";
-import './Sets.css'
+import './SetsPage.css'
 
-export default function Sets() {
+export default function SetsPage() {
 
     return (
         <div></div>
