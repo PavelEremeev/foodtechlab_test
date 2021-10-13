@@ -1,0 +1,91 @@
+.setcard {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.setcard__image {
+  width: 60%;
+  height: auto;
+}
+
+.setcard__container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: space-around;
+  margin-right: 15px;
+}
+
+.setcard__desription-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.setcard__title {
+  font-family: "Gilroy";
+  font-size: 1.15vw;
+  color: #333;
+  margin-top: 1vw;
+}
+
+.setcard__description {
+  font-family: "Gilroy";
+  font-size: 0.67vw;
+  color: #333;
+}
+
+.setcard__icon-container {
+  margin-top: 2vw;
+  display: flex;
+  flex-direction: row;
+  width: 60px;
+  height: 26px;
+  border-radius: 15px;
+  background-color: rgba(67, 67, 67, 0.1);
+  align-items: center;
+}
+
+.setcard__icon-count {
+  margin-left: 15px;
+  background-image: url(../../images/user.png);
+  width: 18px;
+  height: 18px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.setcard__count {
+  margin-left: 5px;
+  font-family: "Gilroy Bold";
+  font-size: 1vw;
+  color: #9b9b9b;
+}
+
+.setcard__price-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding-bottom: 20px;
+}
+
+.setcard__price {
+  font-family: "Gilroy";
+  font-size: 1.5vw;
+  color: #333;
+  margin: 0 15px 0 0;
+}
+
+.setcard__button {
+  width: 5vw;
+  height: 2vw;
+  border-radius: 4px;
+  background-color: #eb1f40;
+  font-family: "Gilroy Bold";
+  font-size: 0.7vw;
+  text-align: center;
+  color: #fff;
+  border: none;
+}
