@@ -5,6 +5,7 @@ import { Route, Switch } from 'react-router-dom';
 import Header from '../Header/Header'
 import Main from '../Main/Main'
 import SetsPage from '../SetsPage/SetsPage'
+import Footer from '../Footer/Footer';
 import './App.css';
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
           <SetsPage></SetsPage>
         </Route>
       </Switch>
-
+      <Footer></Footer>
     </div>
   );
 }

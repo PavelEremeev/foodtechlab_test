@@ -28,7 +28,7 @@ import allImageSet from '../../images/sets/vse-vklyucheno.png'
 
 const backendInfo = [
     {
-        bckgndColor: `{ backgroundColor: 'black' }`,
+        bckgndColor: '#efeff4',
         image: tokyoImageSet,
         title: 'Сет Токио',
         description: 'Калифорния классическая 1, лосось 1, Филадельфия спешл 1/2, зеленая река 1/2, су',
@@ -204,7 +204,7 @@ const backendInfo = [
 export default function SetsPage() {
 
     return (
-        <section className="sets-page">
+        <section className='sets-page'>
             {(backendInfo.map((card, i) =>
                 <SetCard
                     bckgndColor={card.bckgndColor}

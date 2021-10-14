@@ -1,0 +1,37 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.footer__text {
+  font-family: "Gilroy";
+  text-decoration: none;
+  color: #999;
+  font-size: 13px;
+  margin-left: 13px;
+  transition: linear 0.2s all;
+}
+
+.footer__text:hover {
+  color: #eb1f40;
+  transition: linear 0.2s all;
+}
+
+.footer__text:first-child {
+  color: #eb1f40;
+}
+
+@media screen and (max-width: 550px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .footer__text {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+}

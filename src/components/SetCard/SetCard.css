@@ -76,6 +76,7 @@
   font-size: 1.5vw;
   color: #333;
   margin: 0 15px 0 0;
+  width: 4.4vw;
 }
 
 .setcard__button {
@@ -88,4 +89,82 @@
   text-align: center;
   color: #fff;
   border: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .setcard__title {
+    font-family: "Gilroy";
+    font-size: 1.75vw;
+    color: #333;
+    margin-top: 1vw;
+  }
+
+  .setcard__description {
+    font-family: "Gilroy";
+    font-size: 1.17vw;
+    color: #333;
+  }
+
+  .setcard__price {
+    font-family: "Gilroy";
+    font-size: 2vw;
+    color: #333;
+    margin: 0 15px 0 0;
+    width: 5vw;
+  }
+
+  .setcard__button {
+    width: 9vw;
+    height: 3.5vw;
+    border-radius: 4px;
+    background-color: #eb1f40;
+    font-family: "Gilroy Bold";
+    font-size: 1.3vw;
+    text-align: center;
+    color: #fff;
+    border: none;
+  }
+
+  .setcard__count {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .setcard__title {
+    font-family: "Gilroy";
+    font-size: 2.75vw;
+    color: #333;
+    margin-top: 1vw;
+  }
+
+  .setcard__description {
+    font-family: "Gilroy";
+    font-size: 2.1vw;
+    color: #333;
+  }
+
+  .setcard__price {
+    font-family: "Gilroy";
+    font-size: 4vw;
+    color: #333;
+    margin: 0 15px 0 0;
+    width: 13vw;
+  }
+
+  .setcard__button {
+    width: 14vw;
+    height: 5vw;
+    border-radius: 4px;
+    background-color: #eb1f40;
+    font-family: "Gilroy Bold";
+    font-size: 1.9vw;
+    text-align: center;
+    color: #fff;
+    border: none;
+  }
+
+  .setcard__count {
+    font-size: 2.3vw;
+  }
 }

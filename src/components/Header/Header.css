@@ -48,6 +48,7 @@
   color: #999;
   font-size: 13px;
   margin-left: 13px;
+  transition: linear 0.2s all;
 }
 .header__text:first-child {
   margin-left: 0;
@@ -59,6 +60,11 @@
   font-family: "Gilroy Bold";
   width: 101px;
   margin: 0;
+}
+
+.header__text:hover {
+  color: #eb1f40;
+  transition: linear 0.2s all;
 }
 
 .header__button {
@@ -84,6 +90,7 @@
 }
 .header__button:hover {
 }
+
 .header__button-image {
   background-repeat: no-repeat;
   background-image: url(../../images/egg.svg);
@@ -104,6 +111,13 @@
   border: none;
   background-repeat: no-repeat;
   margin-left: 50px;
+  opacity: 1;
+  transition: linear 0.2s all;
+}
+
+.header__button-box:hover {
+  opacity: 0.5;
+  transition: linear 0.2s all;
 }
 
 @media screen and (max-width: 1000px) {

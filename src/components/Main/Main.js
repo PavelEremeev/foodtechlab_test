@@ -11,7 +11,7 @@ export default function Main() {
 
     return (
         <Link to='/sets' style={{ textDecoration: 'none' }}>
-            <section className='main'>
+            <main className='main'>
                 <div className='main__container'>
                     <Sets></Sets>
                     <Rolls></Rolls>
@@ -20,7 +20,7 @@ export default function Main() {
                     <Wok></Wok>
                     <SoupDrinks></SoupDrinks>
                 </div>
-            </section>
+            </main>
         </Link>
     )
 }
