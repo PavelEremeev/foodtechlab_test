@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/foodtechlab_test/static/css/main.af53b005.chunk.css",
-    "main.js": "/foodtechlab_test/static/js/main.40769cec.chunk.js",
-    "main.js.map": "/foodtechlab_test/static/js/main.40769cec.chunk.js.map",
+    "main.js": "/foodtechlab_test/static/js/main.34f7c320.chunk.js",
+    "main.js.map": "/foodtechlab_test/static/js/main.34f7c320.chunk.js.map",
     "runtime-main.js": "/foodtechlab_test/static/js/runtime-main.ab7f120e.js",
     "runtime-main.js.map": "/foodtechlab_test/static/js/runtime-main.ab7f120e.js.map",
-    "static/js/2.c4d19f63.chunk.js": "/foodtechlab_test/static/js/2.c4d19f63.chunk.js",
-    "static/js/2.c4d19f63.chunk.js.map": "/foodtechlab_test/static/js/2.c4d19f63.chunk.js.map",
+    "static/js/2.591238a0.chunk.js": "/foodtechlab_test/static/js/2.591238a0.chunk.js",
+    "static/js/2.591238a0.chunk.js.map": "/foodtechlab_test/static/js/2.591238a0.chunk.js.map",
     "static/js/3.dea2b2b7.chunk.js": "/foodtechlab_test/static/js/3.dea2b2b7.chunk.js",
     "static/js/3.dea2b2b7.chunk.js.map": "/foodtechlab_test/static/js/3.dea2b2b7.chunk.js.map",
     "index.html": "/foodtechlab_test/index.html",
     "static/css/main.af53b005.chunk.css.map": "/foodtechlab_test/static/css/main.af53b005.chunk.css.map",
-    "static/js/2.c4d19f63.chunk.js.LICENSE.txt": "/foodtechlab_test/static/js/2.c4d19f63.chunk.js.LICENSE.txt",
+    "static/js/2.591238a0.chunk.js.LICENSE.txt": "/foodtechlab_test/static/js/2.591238a0.chunk.js.LICENSE.txt",
     "static/media/index.css": "/foodtechlab_test/static/media/Gilroy-Regular.31d54a4b.woff",
     "static/media/Rolls.css": "/foodtechlab_test/static/media/sushi_desktop.8843e1d2.png",
     "static/media/begemot.58d64880.png": "/foodtechlab_test/static/media/begemot.58d64880.png",
@@ -41,8 +41,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ab7f120e.js",
-    "static/js/2.c4d19f63.chunk.js",
+    "static/js/2.591238a0.chunk.js",
     "static/css/main.af53b005.chunk.css",
-    "static/js/main.40769cec.chunk.js"
+    "static/js/main.34f7c320.chunk.js"
   ]
 }
